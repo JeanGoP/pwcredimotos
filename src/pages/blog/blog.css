@@ -1,0 +1,72 @@
+/* RESET BÁSICO */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.blog-hero {
+  width: 100vw;
+  height: 260px; /* móvil */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* OVERLAY OSCURO */
+.blog-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/* TEXTO HERO */
+.blog-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+  background: transparent;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+
+/* SECCIÓN INFERIOR */
+.blog-section {
+  padding: 3rem 0;
+}
+
+.blog-subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+}
+
+/* LINEA ROJA */
+.line-red {
+  width: 40px;
+  height: 2px;
+  background-color: #dc3545;
+}
+
+/* 🔥 DESKTOP */
+@media (min-width: 768px) {
+  .blog-hero {
+    height: 360px;
+  }
+
+  .blog-title {
+    font-size: 3.5rem;
+  }
+
+  .blog-subtitle {
+    font-size: 2rem;
+  }
+}

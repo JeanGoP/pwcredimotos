@@ -1,0 +1,72 @@
+.card__Motocicleta {
+  border-radius: 10px;
+  border: 2px solid #808080;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* IMAGEN */
+.card__img__container {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* LINEA */
+.card__Motocicleta__linea__padre {
+  display: flex;
+  justify-content: center;
+}
+
+.card__Motocicleta__linea {
+  width: 90%;
+  height: 2px;
+  background-color: #df040b;
+}
+
+/* TEXTO */
+.marca__card__Motocicleta {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+}
+
+.modelo__card__Motocicleta-- {
+  text-align: right;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+}
+
+.nombre__card__Motocicleta {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* PRECIO */
+.card__precio__Motocicleta {
+  border: 1px solid #131516;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.card__precio__Motocicleta:hover {
+  background-color: #df040b;
+  color: black;
+}
+
+/* CONTENEDOR */
+.div__Contenido__card__Motocicleta {
+  margin-top: 10px;
+}
