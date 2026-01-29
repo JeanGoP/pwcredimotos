@@ -19,7 +19,7 @@ export function Posventa() {
       <section
         className="posventa-hero"
         style={{
-          backgroundImage: `url('${configuracionData?.rutaPortada}')`,
+          backgroundImage: `url('${configuracionData?.rutaPortadaPosventa}')`,
         }}
       >
         <div className="posventa-hero-overlay"></div>
@@ -32,10 +32,7 @@ export function Posventa() {
         {/* HERO POSVENTA FULL WIDTH */}
 
         <div className="row row__Posventa__">
-          <div className="col-lg-12 col-md-12 col-sm-12">
-            <span>...</span>
-            <p>SabanaMotos</p>
-          </div>
+
           <div className="col-lg-5 col-md-12 col-sm-12">
             <p className="titulo__Posventa " style={{ color: 'WHITE' }}>
               TALLERES AUTORIZADOS, REPUESTOS Y ACCESORIOS.

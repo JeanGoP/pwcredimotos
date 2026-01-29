@@ -69,6 +69,7 @@ function Footer() {
           <div className="col-lg-2 col-md-6 footer__col">
             <h5 className="footer__title">Ayuda</h5>
             <p onClick={() => handlePagina('/tratamientoDatos')}>Tratamientos de datos</p>
+            <a className="clickable icono_footer" href="https://lineaetica.onrender.com/?empresa=Credimotos" target="_blank" style={{textDecoration:'none', color:'#d8d8d8', fontSize:'15px'}} >Línea Ética</a> 
           </div>
         </div>
 

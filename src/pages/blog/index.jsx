@@ -18,7 +18,7 @@ const BlogHero = () => {
         className="blog-hero"
         style={{
           backgroundColor: 'black',
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${configuracionData?.rutaPortada}')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${configuracionData?.rutaPortadaBlog}')`,
         }}
       >
         <div className="blog-hero-overlay"></div>
