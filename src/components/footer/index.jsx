@@ -74,7 +74,7 @@ function Footer() {
         </div>
 
         {/* COPYRIGHT */}
-        <div className="footer__bottom">Copyright © 2023. Credimotos All rights reserved | Desing By @HakuCreativo SAS</div>
+        <div className="footer__bottom">Copyright © 2023. Credimotos All rights reserved | Develop By @Sidecil SAS</div>
       </div>
     </footer>
   );
